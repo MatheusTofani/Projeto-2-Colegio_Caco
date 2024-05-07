@@ -1,0 +1,501 @@
+/* PAGINA TODA */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+/* CONTAINER */
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* HEADER */
+header img {
+    width: 130px;
+    margin-bottom: 30px;
+}
+
+header {
+    background-color: #fFF5E1;
+    padding: 20px 0;
+    height: 150px;
+}
+
+header .container {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+/* MENU */
+
+.menu h1 {
+    text-align: center;
+    color: #e1547f;
+    font-size: 40px;
+    margin: 30px 0;
+    margin-bottom: 30px;
+}
+
+.menu img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+    font-weight: 800;
+    color: #da5238;
+    font-size: 20px;
+    margin-bottom: 400px;
+
+}
+
+nav img {
+    height: 100px;
+    clip-path: circle(50%);
+}
+
+nav img,
+ul {
+    margin: 0 50px;
+}
+
+nav img {
+    margin: 20px 50px;
+}
+
+/* SOBRE */
+#sobre {
+    margin-top: 100px;
+}
+
+#sobre h1 {
+    text-align: center;
+    color: #fed363;
+    font-size: 50px;
+    padding-top: 40px;
+}
+
+.sobre {
+    background-color: #da5238;
+    border-radius: 100px;
+    height: 530px;
+
+}
+
+.articlesB {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+#sobre article {
+    width: 45%;
+}
+
+.articlesB h2 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+.articlesB img {
+    clip-path: none;
+    height: 300px;
+    clip-path: circle(38%);
+
+}
+
+/* PROFESSORES */
+section img {
+    height: 100px;
+    clip-path: circle(50%);
+    margin: 20px 70px;
+}
+
+section article {
+    margin-top: 30px;
+}
+
+.tati {
+    display: flex;
+    justify-content: center;
+}
+
+.matheus {
+    display: flex;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+article h2 {
+    color: #da5238;
+}
+
+article h3 {
+    color: #0da4b5;
+}
+
+#insta {
+    clip-path: none;
+    height: 40px;
+}
+
+.insta {
+    display: flex;
+    font-size: 20px;
+    margin-left: 290px;
+    align-items: center;
+    font-weight: 800;
+}
+
+.insta a {
+    text-decoration: none;
+    color: #e1547f;
+}
+
+.insta img {
+    margin: 20px;
+}
+
+
+#insta2 {
+    clip-path: none;
+    height: 40px;
+}
+
+.insta2 {
+    display: flex;
+    font-size: 20px;
+    margin-left: 180px;
+    align-items: center;
+    font-weight: 800;
+}
+
+.insta2 a {
+    text-decoration: none;
+    color: #e1547f;
+}
+
+.insta2 img {
+    margin: 20px;
+}
+
+section h1 {
+    color: #e1547f;
+    font-size: 40px;
+    margin: 30px 0;
+}
+
+.insta2 img:hover {
+    transform: scale(1.1);
+}
+
+.insta img:hover {
+    transform: scale(1.1);
+}
+
+
+/* FORMULARIO */
+form {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 30px;
+}
+
+#cal {
+    color: #e1547f;
+    font-size: 40px;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.formulario {
+    background-color: #0da4b5;
+    padding: 40px;
+    border-radius: 30px;
+}
+
+.formulario h2 {
+    margin-bottom: 20px;
+    color: #ffff;
+}
+
+input {
+    height: 40px;
+    width: 150px;
+    margin-left: 20px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 10px;
+}
+
+form button {
+    height: 40px;
+    width: 150px;
+    margin-left: 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #e1547f;
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+form input:focus {
+    outline: solid 3px #e1547f;
+
+}
+
+form button:hover {
+    background-color: #ee9eb5;
+}
+
+/* TABELA */
+table {
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 80px;
+    border: solid 2px #da5238;
+}
+
+table th {
+    border-bottom: solid #da5238 2px;
+    padding: 16px 0;
+}
+
+table td {
+    border-bottom: solid #da5238 2px;
+    text-align: center;
+    padding: 16px 0;
+}
+
+table td img {
+    height: 50px;
+}
+
+.aaa {
+    margin-left: 90px;
+}
+
+tfoot {
+    background-color: #da5238;
+    color: white;
+    font-weight: 700;
+    border: none;
+
+}
+
+.aprovado {
+    background-color: #70c5ae;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.reprovado {
+    background-color: #fed363;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.form2 {
+    margin-bottom: 80px;
+}
+
+/* CONTATO */
+#contato {
+    max-height: 400px;
+    background-color: #e1547f;
+    color: white;
+    font-size: 20px;
+}
+
+#contato h2 {
+    color: white;
+}
+
+#contato {
+    padding-top: 0;
+}
+
+#inf {
+    padding: 15px;
+    margin: 0;
+}
+
+#contato h1 {
+    text-align: center;
+    color: #fed363;
+    padding: 15px;
+}
+
+.articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+#end {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.email {
+    display: flex;
+    text-align: center;
+
+}
+
+.email img {
+    margin: 0;
+    clip-path: none;
+    height: 30px;
+    padding-right: 10px;
+}
+
+.wha img {
+    height: 30px;
+    clip-path: none;
+    margin: 0;
+    padding-right: 10px;
+}
+
+.wha {
+    display: flex;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.cont {
+    text-align: center;
+}
+
+
+.cont {
+    justify-content: center;
+    text-align: center;
+}
+
+#nov {
+    text-align: center;
+    justify-content: center;
+}
+
+#pol {
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #FFF5E1;
+    ;
+    text-align: center;
+    color: #da5238;
+    font-weight: bold;
+    height: 50px;
+    justify-content: center;
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+}
+
+/* CADASTRO */
+
+#cad {
+    background-color: #fed363;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 30px;
+}
+
+#cad .container {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.cubo {
+    width: 900px;
+    background-color: #e1547f;
+    text-align: center;
+    align-items: center;
+    border-radius: 30px;
+    color: white;
+    margin: 100px 0;
+}
+
+.cubo h2 {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+#form3 {
+    display: inherit;
+}
+
+#form3 button {
+    background-color: #0da4b5;
+    margin-top: 20px;
+}
+
+#form3 input {
+    width: 200px;
+}
+
+#form3 button:hover {
+    background-color: #13828f;
+}
+
+#cad table,
+#cad tfoot {
+    border: solid 2px #fed363;
+    background-color: #fFF5E1;
+    width: 800px;
+}
+
+#cad td {
+    border-bottom: solid 2px #fed363;
+}
+
+#cad th {
+    border-bottom: solid 2px #fed363;
+}
+
+#cad table,
+#cad tfoot {
+    color: #e1547f;
+}
+
+#cad table {
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#bot2 {
+    background-color: #0da4b5;
+    margin-bottom: 20px;
+}
+
+#bot2:hover {
+    background-color: #13828f;
+}

@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E.I. Mini Caco</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <link rel="shortcut icon" href="logo.png" />
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <img src="logo.png">
+    </header>
+    <!-- SOBRE -->
+
+    <!-- MENU -->
+    <div class="container">
+        <div class="menu">
+            <h1><i>Menus</i></h1>
+            <nav>
+                <ul>
+                    <li>
+                        Sobre
+                        </br>
+                        <a href=#sobre> <img src="liv.png"></a>
+                    </li>
+                    <li>
+                        Calculadora
+                        </br>
+                        <a href=#cal> <img src="cal.png"></a>
+                    </li>
+                    <li>
+                        Professores
+                        </br>
+                        <a href="#prof"><img src="maca.png"></a>
+                    </li>
+                    <li>
+                        Registro dos alunos
+                        </br>
+                        <a href="#cad"><img src="bloco.png"></a>
+                    </li>
+                    <li>
+                        informações
+                        </br>
+
+                        <a href=#inf><img src="lamp.png"></a>
+                    </li>
+
+                </ul>
+
+            </nav>
+        </div>
+    </div>
+    <!-- SOBRE -->
+    <section id="sobre">
+        <div class="container">
+
+            <div class="sobre">
+                <div class="sobreh1">
+                    <h1> Sobre </h1>
+                </div>
+                <div class="articlesB">
+                    <article>
+                        <img id="esco" src="Escola.jpg">
+                    </article>
+                    <article>
+                        <h2>Quem somos ?</h2>
+                        Mini Caco é uma visão encantadora e envolvente de uma escola que prioriza a educação infantil de
+                        forma
+                        excepcional. Com um ambiente acolhedor e estimulante, o Mini Caco oferece uma atmosfera onde
+                        cada
+                        criança é valorizada e incentivada a explorar seu potencial único. Nossa abordagem pedagógica é
+                        centrada
+                        na criança, promovendo o desenvolvimento integral em um ambiente seguro e criativo.
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FORMULARIO -->
+    <div class="container">
+        <h1 id="cal"><i>Calculadora</i></h1>
+    </div>
+    <form id="form">
+        <div class="formulario">
+            <h2><i>Calcule a media</i></h2>
+            <input type="text" id="nome" required placeholder="Nome da Atividade">
+            <input id="number" type="number" required placeholder="Nota do Aluno" min="0" max="10">
+            <button type="submit">Adicionar</button>
+        </div>
+    </form>
+
+    <!-- TABELA-->
+    <table cellspacing="0">
+        <thead>
+            <tr>
+                <th> Nome da Atividade</th>
+                <th>Nota</th>
+                <th>Aprovado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td><u>Media final:</u></td>
+            <td id="media"> </td>
+            <td id="aprovado"></td>
+        </tfoot>
+    </table>
+
+    <form class="form2">
+        <button id="bot" type="button"> Limpar tabela </button>
+    </form>
+    <!--PROFESSORES-->
+    <section id="prof">
+        <div class="container">
+
+            <h1 id="cal"><i>Professores </i> </h2>
+
+                <div class="tati">
+                    <img src="tati.jpg">
+                    <article>
+                        <h2> Tatiane Gonçalves da Silva</h2>
+                        <h3><i>Designer Gráfico</i></h3>
+                        <i>Responsavel por fazer a logo e ilustrações do site.</i>
+                    </article>
+
+                    <div class="insta">
+                        <a href="https://www.instagram.com/httpcy.art?igsh=MWR4ZG5ndTF0ZnU3cw=="> <img id="insta"
+                                src="insta.png"></a>
+                        <a href="https://www.instagram.com/httpcy.art?igsh=MWR4ZG5ndTF0ZnU3cw=="> </a>
+                    </div>
+
+                </div>
+
+                <div class="matheus">
+                    <img src="math.jpg">
+                    <article>
+                        <h2> Matheus Henrique Tófani de Mello Sousa</h2>
+                        <h3><i>Front-end</i></h3>
+                        <i>Responsavel pelo site, integrando o HTML, CSS e JavaScript.</i>
+                    </article>
+
+                    <div class="insta2">
+                        <a href="https://www.instagram.com/tofanimh/"> <img id="insta2" src="insta.png"></a>
+                        <a href="https://www.instagram.com/tofanimh/"> </a>
+                    </div>
+
+                </div>
+
+        </div>
+    </section>
+
+    <!-- CADASTRO -->
+    <section id="cad">
+        <div class="container">
+            <div class="cubo">
+                <h2> Cadastro do Aluno</h2>
+                <form id="form3">
+                    <input type="text" id="nome2" required placeholder="Nome do Aluno">
+                    <input id="nomer" type="text" required placeholder="Nome do responsavel">
+                    <input id="number2" type="tel" required placeholder="Numero do responsavel">
+                    </br>
+                    <button type="submit">Adicionar</button>
+                </form>
+                <table cellspacing="0">
+                    <thead>
+                        <tr>
+                            <th> Nome do Aluno</th>
+                            <th>Nome do Responsavel</th>
+                            <th>Numero do Responsavel</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tab2">
+                        <tr>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <td><u>Total de Alunos:</u></td>
+                        <td id="total"> </td>
+                        <td id="tota"></td>
+                    </tfoot>
+                </table>
+                <form class="form4">
+                    <button id="bot2" type="button"> Limpar tabela </button>
+                </form>
+            </div>
+        </div>
+        
+    </section>
+    <!-- CONTATO -->
+    <section id="contato">
+        <div class="container">
+
+
+            <h1 id="inf">Informações</h1>
+            <div class="articles">
+
+                <article>
+                    <div class="cont">
+
+                        <h2>Contato</h2>
+                        </br>
+                        <div class="wha"> <img src="wha.png"> (31) 9 6161-6161</div>
+                        </br>
+
+                        <div class="email">
+                            <img src="g.png"> contato@minicaco.com.br
+                        </div>
+                    </div>
+                </article>
+                <article id="nov">
+                    <h2>Novidades</h2>
+                    </br>
+                    <p>Unidades</p>
+                    </br>
+                    <p>Inscrições</p>
+                </article>
+                <article id="pol">
+                    <h2>Politicas</h2>
+                    </br>
+                    <p>Privacidade</p>
+                    </br>
+                    <p>Regras do aluno</p>
+                </article>
+            </div>
+            <article id="end">
+                Rua Gonçalves, 1909 - Fazenda Matinhos - Vale dos Pelicanos/MG
+            </article>
+        </div>
+    </section>
+
+    <!-- RODAPE -->
+    <footer>
+        © Escola Infantil Mini Caco - Todos os direitos reservados - 2024
+    </footer>
+
+    <script src="./main.js"></script>
+
+
+    </div>
+
+</html>
