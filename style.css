@@ -205,6 +205,9 @@ section h1 {
     transform: scale(1.1);
 }
 
+#prof {
+   margin-bottom: 250px;
+}
 
 /* FORMULARIO */
 form {
@@ -421,9 +424,9 @@ footer {
     background-color: #fed363;
     align-items: center;
     justify-content: center;
-    display: flex;
     flex-direction: row;
     padding-bottom: 30px;
+    padding-bottom: px;
 }
 
 #cad .container {
@@ -441,12 +444,13 @@ footer {
     align-items: center;
     border-radius: 30px;
     color: white;
-    margin: 100px 0;
+    margin-bottom: 100px;
+    padding-top: 50px;
 }
 
 .cubo h2 {
-    margin-top: 30px;
-    font-size: 30px;
+    margin-top: px;
+    font-size: 40px;
 }
 
 #form3 {
@@ -499,3 +503,11 @@ footer {
 #bot2:hover {
     background-color: #13828f;
 }
+
+#caE {
+    clip-path: none;
+    height: 400px;
+    margin-bottom: 0;
+    margin-top: -250px;
+}
+
